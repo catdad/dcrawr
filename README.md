@@ -32,6 +32,7 @@ dcrawr -w -W IMG_1234.CR2
 Or you can use it directly though `npx`:
 
 ```bash
+# convert an image
 npx dcrawr -w -W IMG_1234.CR2
 ```
 

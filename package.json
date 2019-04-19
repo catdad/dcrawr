@@ -23,9 +23,9 @@
   "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {
-    "dcraw-vendored-darwin": "^9.28.1",
-    "dcraw-vendored-linux": "^9.28.1",
-    "dcraw-vendored-win32": "^9.28.1"
+    "dcraw-vendored-darwin": "^9.28.2",
+    "dcraw-vendored-linux": "^9.28.2",
+    "dcraw-vendored-win32": "^9.28.2"
   },
   "engines": {
     "node": ">=4.0.0"

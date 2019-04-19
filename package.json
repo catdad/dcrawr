@@ -1,7 +1,7 @@
 {
   "name": "dcrawr",
   "version": "1.0.0",
-  "description": "dcrawr",
+  "description": "it's dcraw, already compiled and ready to use",
   "main": "index.js",
   "bin": {
     "dcrawr": "./bin.js"

@@ -7,8 +7,8 @@ The extra R is becuase it's extra cute 😺
 [![npm-version][npm-version.svg]][npm.link]
 [![dm-david][dm-david.svg]][dm-david.link]
 
-[travis.svg]: https://travis-ci.org/catdad/dcrawr.svg?branch=master
-[travis.link]: https://travis-ci.org/catdad/dcrawr
+[travis.svg]: https://travis-ci.com/catdad/dcrawr.svg?branch=master
+[travis.link]: https://travis-ci.com/catdad/dcrawr
 [npm-downloads.svg]: https://img.shields.io/npm/dm/dcrawr.svg
 [npm.link]: https://www.npmjs.com/package/dcrawr
 [npm-version.svg]: https://img.shields.io/npm/v/dcrawr.svg

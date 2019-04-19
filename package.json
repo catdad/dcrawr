@@ -1,0 +1,25 @@
+{
+  "name": "dcrawr",
+  "version": "1.0.0",
+  "description": "dcrawr",
+  "bin": "./bin.js",
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catdad/dcrawr.git"
+  },
+  "author": "Kiril Vatev <vatev.1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catdad/dcrawr/issues"
+  },
+  "homepage": "https://github.com/catdad/dcrawr#readme",
+  "optionalDependencies": {
+    "dcraw-vendored-darwin": "^9.28.1",
+    "dcraw-vendored-linux": "^9.28.1",
+    "dcraw-vendored-win32": "^9.28.1"
+  }
+}

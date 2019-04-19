@@ -15,3 +15,19 @@ install:
 
 script:
   - npm test
+
+jobs:
+  include:
+    - stage: deploy
+      if: tag IS present
+      node_js: '10'
+      script: echo "Deploying to npm ..."
+      deploy:
+        provider: npm
+        email: vatev.1+npm@gmail.com
+        api_key:
+          secure: db7TsG93bo2y9mBYfsf7HH3/phkfwRwsItRuifLApvyrmCfyGdrrr7ajCl6jwVyf4YtwRMKbmrqAXYXRqPHjGIR88KwOdUcxOB5/DNCSGulrQF0chWNjl3arDf9/sJiujA9D+bSnyjV0UU/1UtmCydOigYYOXF4g3vbk/t75bZL8iM8kXfS4ZNnErlbHIyWEkHo+jNzE5ZSjHzq6+ANFZTe5JQRvrJp/YnuTAkPkCzXlC1BMD7CQYMAWtnjXm1yRlrqe52BPOkaGk9W04RSO7u5oO//R/n0scWFy16/aBXf1SpYqubMni/MSGhyBjn6lpv0mLoYQP5KqrDICJEzziHohV/khT4b0Ogy3v8WfQuk457WAskWat44Ojdeyc2LYSfYxbpK/sptmgqslOsD6dV91dX8OTtcm4Ev4gVYFYSxeu8wKYfde/jF7Xss2u9vB3okricMAXr7AicWyQkwZlFUYEyryM3WkTRQLq2Xq7cvL2XijpTjmKmgngRym9p6ERrbgSNqROqJgefBAreCXd1G+PYn+XU8+EHc2GanZDWpWC9/oEY5WzmIdafZdhUWKZBXhh+sTqUFyM9GbzgTvI5gqc00GNZhggp/cSACD8mJO7EMA2gE8TTxS8UN2CBhl6Q+aY9UYwHAt6KSCsHI1apG6aHvikIplirKZiJsQLxs=
+        on:
+          tags: true
+          repo: catdad/dcrawr
+

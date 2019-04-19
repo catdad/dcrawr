@@ -2,7 +2,10 @@
   "name": "dcrawr",
   "version": "1.0.0",
   "description": "dcrawr",
-  "bin": "./bin.js",
+  "main": "index.js",
+  "bin": {
+    "dcrawr": "./bin.js"
+  },
   "scripts": {
     "postinstall": "node postinstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,9 +20,24 @@
     "url": "https://github.com/catdad/dcrawr/issues"
   },
   "homepage": "https://github.com/catdad/dcrawr#readme",
+  "dependencies": {},
+  "devDependencies": {},
   "optionalDependencies": {
     "dcraw-vendored-darwin": "^9.28.1",
     "dcraw-vendored-linux": "^9.28.1",
     "dcraw-vendored-win32": "^9.28.1"
-  }
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "keywords": [
+    "dcraw",
+    "raw",
+    "images",
+    "protography",
+    "binary",
+    "windows",
+    "linux",
+    "macos"
+  ]
 }

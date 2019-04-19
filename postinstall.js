@@ -3,7 +3,7 @@
 
 const assert = require('assert');
 const { spawnSync } = require('child_process');
-const dcraw = require(`dcraw-vendored-${process.platform}`);
+const dcraw = require('./');
 
 try {
   const { stdout } = spawnSync(dcraw, []);

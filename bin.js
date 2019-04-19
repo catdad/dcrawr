@@ -2,7 +2,7 @@
 /* jshint esversion: 6 */
 
 const { spawnSync } = require('child_process');
-const dcraw = require(`dcraw-vendored-${process.platform}`);
+const dcraw = require('./');
 const args = process.argv.slice(2);
 
 try {
